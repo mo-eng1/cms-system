@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaaS CMS Sistemi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+          <div class="flex items-center">
+            <img src="images/logo.png" alt="Printer Icon" class="h-8 mr-2" style="z-index: 10;">
+            <a href="#home" class="text-lg font-bold text-gray-700">SaaS CMS Sistemi</a>
+          </div>
+          <div class="flex space-x-3">
+            <a href="#features" class="link-hover">Özellikler</a>
+            <a href="#use-cases" class="link-hover">Kullanım Alanları</a>
+            <a href="#contact" class="link-hover">İletişim</a>
+          </div>
+        </div>
+      </header>
+      
+    <!-- Hero Section -->
+
+    <section
+      id="home"
+      class="bg-cover bg-center"
+      style="
+        background-image: url(images/foto.jpg);
+        height: 75vh;
+      "
+    >
+      <div class="container mx-auto h-full flex justify-center items-center">
+        <h1 class="text-5xl text-white font-bold" data-aos="fade-up">
+          SaaS CMS Sistemi
+        </h1>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl font-bold text-center" data-aos="fade-right">
+            Özellikler
+          </h2>
+          <p class="mt-4 text-gray-600 text-center" data-aos="fade-right">
+            SaaS CMS sistemi ile kullanıcı dostu arayüz, esnek yönetim paneli ve güçlü entegrasyonlar sunar.
+          </p>
+          <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="feature-card p-6 border rounded-lg shadow-lg" data-aos="zoom-in">
+              <img src="images/Interface.jpg" alt="Feature 1" class="w-full h-48 object-cover rounded-lg hover:opacity-75 transition duration-300 ease-in-out">
+              <h3 class="text-xl font-semibold mt-4">Kullanıcı Dostu Arayüz</h3>
+              <p class="mt-2 text-gray-600">Kolay ve sezgisel bir arayüz ile kullanıcıların ihtiyaçlarına hızlı cevap verir.</p>
+            </div>
+            <div class="feature-card p-6 border rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="100">
+              <img src="images/Flexible Administration.jpg" alt="Feature 2" class="w-full h-48 object-cover rounded-lg hover:opacity-75 transition duration-300 ease-in-out">
+              <h3 class="text-xl font-semibold mt-4">Esnek Yönetim Paneli</h3>
+              <p class="mt-2 text-gray-600">Yönetim paneli ile içeriklerinizi ve kullanıcılarınızı kolayca yönetin.</p>
+            </div>
+            <div class="feature-card p-6 border rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="200">
+              <img src="images/Powerful Integrations.jpg" alt="Feature 3" class="w-full h-48 object-cover rounded-lg hover:opacity-75 transition duration-300 ease-in-out">
+              <h3 class="text-xl font-semibold mt-4">Güçlü Entegrasyonlar</h3>
+              <p class="mt-2 text-gray-600">Farklı hizmetler ve araçlar ile güçlü entegrasyonlar sağlar.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+
+    
+<!-- Use Cases Section -->
+<section id="use-cases" class="py-20 bg-gray-200">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center" data-aos="fade-left">
+        Kullanım Alanları
+      </h2>
+      <p class="mt-4 text-gray-600 text-center" data-aos="fade-left">
+        SaaS CMS sistemi, çeşitli sektörlerde kullanılabilir ve iş süreçlerini
+        kolaylaştırır.
+      </p>
+      <!-- Kullanım alanları içeriği -->
+<div class="grid grid-cols-2 gap-8 mt-12">
+  <!-- Kullanım Alanı 1 -->
+  <div class="flex items-center justify-center p-6 bg-white shadow-lg rounded-lg" data-aos="zoom-in">
+    <div class="flex-shrink-0">
+      <img src="images/e ticaret.jpg" alt="Kullanım Alanı 1" class="h-16 w-16 rounded-full">
+    </div>
+    <div class="ml-6">
+      <h4 class="text-lg font-semibold text-gray-800">E-ticaret İşletmeleri</h4>
+      <p class="mt-2 text-gray-600">Ürün yönetimi ve pazarlama için ideal bir çözüm sunar.</p>
+    </div>
+  </div>
+
+  <!-- Kullanım Alanı 2 -->
+  <div class="flex items-center justify-center p-6 bg-white shadow-lg rounded-lg" data-aos="zoom-in">
+    <div class="flex-shrink-0">
+      <img src="images/education.jpg" alt="Kullanım Alanı 2" class="h-16 w-16 rounded-full">
+    </div>
+    <div class="ml-6">
+      <h4 class="text-lg font-semibold text-gray-800">Eğitim Kurumları</h4>
+      <p class="mt-2 text-gray-600">Öğrenci ve personel yönetimi için ideal bir çözüm sunar.</p>
+    </div>
+  </div>
+
+  <!-- Kullanım Alanı 3 -->
+  <div class="flex items-center justify-center p-6 bg-white shadow-lg rounded-lg" data-aos="zoom-in">
+    <div class="flex-shrink-0">
+      <img src="images/health.jpg" alt="Kullanım Alanı 3" class="h-16 w-16 rounded-full">
+    </div>
+    <div class="ml-6">
+      <h4 class="text-lg font-semibold text-gray-800">Sağlık Hizmetleri</h4>
+      <p class="mt-2 text-gray-600">Hasta kayıtları ve randevu yönetimi için etkili bir çözüm sunar.</p>
+    </div>
+  </div>
+
+  <!-- Kullanım Alanı 4 -->
+  <div class="flex items-center justify-center p-6 bg-white shadow-lg rounded-lg" data-aos="zoom-in">
+    <div class="flex-shrink-0">
+      <img src="images/otel.jpg" alt="Kullanım Alanı 4" class="h-16 w-16 rounded-full">
+    </div>
+    <div class="ml-6">
+      <h4 class="text-lg font-semibold text-gray-800">Otel Yönetimi</h4>
+      <p class="mt-2 text-gray-600">Rezervasyon ve konaklama yönetimi için mükemmel bir seçenek sunar.</p>
+    </div>
+  </div>
+</div>
+
+  
+<!-- Contact Section -->
+<section id="contact" class="py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center" data-aos="fade-up">
+        İletişim
+      </h2>
+      <div class="flex flex-col md:flex-row mt-8 gap-8">
+        <form class="w-full md:w-1/2 p-4 bg-white shadow-md rounded-lg" data-aos="fade-up">
+          <div class="mb-4">
+            <label class="block text-gray-700" for="name">Adınız</label>
+            <input
+              class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600 transition duration-300 ease-in-out transform hover:scale-105"
+              type="text"
+              id="name"
+              name="name"
+            />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700" for="email">E-posta</label>
+            <input
+              class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600 transition duration-300 ease-in-out transform hover:scale-105"
+              type="email"
+              id="email"
+              name="email"
+            />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700" for="message">Mesaj</label>
+            <textarea
+              class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600 transition duration-300 ease-in-out transform hover:scale-105"
+              id="message"
+              name="message"
+            ></textarea>
+          </div>
+          <button
+            class="px-6 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105"
+          >
+            Gönder
+          </button>
+        </form>
+        
+        
+        <div class="w-full md:w-1/2 p-4 bg-white shadow-md rounded-lg" data-aos="fade-up">
+            <p class="text-gray-600 mb-4">
+              Bize aşağıdaki platformlardan ulaşabilirsiniz:
+            </p>
+            <div class="flex gap-8 items-center">
+              <a href="https://wa.me/905382404917" target="_blank" class="flex items-center">
+                <img src="https://www.iconfinder.com/icons/5296520/download/png/64" alt="WhatsApp" class="w-10 h-10 rounded-full bg-green-100 p-2">
+                <span class="text-gray-700 ml-2">0538 240 49 17</span>
+              </a>
+            </div>
+            <div class="flex mt-4 gap-8 items-center">
+              <a href="https://www.instagram.com/muhammed_elmuhemid" target="_blank" class="flex items-center">
+                <img src="https://www.iconfinder.com/icons/5296765/download/png/64" alt="Instagram" class="w-10 h-10 rounded-full bg-pink-100 p-2">
+                <span class="text-gray-700 ml-2">muhammed_elmuhemid</span>
+              </a>
+            </div>
+            <div class="flex mt-4 gap-8 items-center">
+              <a href="https://www.facebook.com/MuhammedElmuhemid" target="_blank" class="flex items-center">
+                <img src="https://www.iconfinder.com/icons/5296499/download/png/64" alt="Facebook" class="w-10 h-10 rounded-full bg-blue-100 p-2">
+                <span class="text-gray-700 ml-2">Muhammed Elmuhemid</span>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-4 text-center">
+      <p>Tüm hakları saklıdır © 2024 SaaS CMS Sistemi</p>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.14/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

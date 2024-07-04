@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Sayfa Bulunamadı</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+      <div
+        class="container mx-auto px-6 py-3 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <img
+            src="images/logo.png"
+            alt="Printer Icon"
+            class="h-8 mr-2"
+            style="z-index: 10"
+          />
+          <a href="#home" class="text-lg font-bold text-gray-700"
+            >SaaS CMS Sistemi</a
+          >
+        </div>
+        <div class="flex space-x-3">
+          <a href="#features" class="link-hover">Özellikler</a>
+          <a href="#use-cases" class="link-hover">Kullanım Alanları</a>
+          <a href="#contact" class="link-hover">İletişim</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 404 Content -->
+    <section
+      class="container mx-auto flex-grow py-20 flex flex-col items-center justify-center"
+    >
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">
+          404 - Sayfa Bulunamadı
+        </h1>
+        <p class="text-gray-600 mb-4">Üzgünüz, aradığınız sayfa bulunamadı.</p>
+        <a
+          href="index.html"
+          class="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+          >Ana Sayfa'ya Dön</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="fixed bottom-0 w-full bg-gray-800 text-gray-400 py-4 text-center"
+    >
+      <p>Tüm hakları saklıdır © 2024 SaaS CMS Sistemi</p>
+    </footer>
+  </body>
+</html>
